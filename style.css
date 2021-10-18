@@ -1,0 +1,252 @@
+es (222 sloc)  4.38 KB
+   
+  
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sansita', sans-serif;
+}
+
+.logo #mamun{
+text-decoration: none;
+margin-bottom: 88px ;
+margin-left: 5px;
+}
+
+.menu{
+    margin-top: 5px;
+    background: #2c3e50;
+    border-radius: 8px;
+   font-size: 0;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+    margin-left: 126px;
+}
+.menu ul{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 15px;
+    margin: auto;
+    text-transform: uppercase;
+    color: white;
+}
+.menu ul :hover{
+    background: #1abc9c;
+    border-radius: 8px;
+    height: 35px;
+    margin-top: 2px;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 0px 5px ;
+   cursor: pointer !important;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 40px;
+   text-align: center;
+}
+.social-icon ul{
+    margin-left: 400px;
+ }
+ 
+ .social-icon ul li{
+     display: inline-block;
+     padding: 5px;
+ }
+ .social-icon ul li i{
+     color: gray 
+ }
+
+.login-btn{
+    margin-left: 400px;
+    
+    
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  
+  border-radius: 30px;
+  background: linear-gradient(#E74C3C,#ff9f1a);
+  color: #7075f7;
+  width: 55px;
+  height: 16px;
+}
+.banner{
+    width: 180px;
+    height: 67px;
+    
+    background: #428cd4;
+
+    background-clip: content-box;
+    border-style: solid;border-color:#3776bb  #2a78b2
+    #3a6ab4 #2a78b2;
+   margin-left: 5px;
+}
+
+.text1{
+    width: 180px;
+    height: 95px;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: justify;
+   overflow:auto;
+   border: 5px solid #c7ecee;
+   background: #C8D6E5;
+   background-clip: content-box;
+   cursor: pointer;
+   font-weight: 300;
+   font-size: 10px;
+   line-height: 1.3em;
+}
+
+.app-text h6{
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-left: 5px;
+    color: honeydew;
+    font-size: 13px;
+}
+.app-text h3{
+    margin-left: 5px;
+    color: #fffbfb;
+}
+
+.header{
+    width: 100%;
+    height: 60vh;
+    background-color: #fff;
+    position: relative;
+}
+.header .navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+   
+    position: absolute;
+    margin-top: 30px;
+}
+.btn-group{
+    display: flex;
+    width: 80%;
+    position: relative;
+    margin-top: 10px;
+}
+.btn-group .signup-btn{
+    cursor: pointer;
+    display: block;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 32px;
+    background: linear-gradient(#E74C3C,#ff9f1a);
+    color: #bab9f9;
+    padding: 15px 45px;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+.btn-group .play-btn{
+    margin-left: 40px;
+    display: inline-flex;
+    margin-top: 40px;
+}
+.btn-group span{
+    background-color: #138086;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    margin: auto 20px;
+    cursor: pointer;
+   width: 93px;
+   height: 18px;
+}
+.play-btn-inner{
+    height: 40px;
+    width: 40px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-color:#138086 ;
+}
+.play-btn-inner i{
+    padding: 10px 12px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#EEE1;
+    font-family: 'STIX Two Math', serif;
+}
+
+#mamun{
+    margin-top: 5px;
+    width: 120px;
+    height: auto;
+    background-color:#E5effe;
+}
+
+.container{
+    max-width: 176px;
+ border-style: solid;border-color:#c6e2ff #c7ecee #1ECBE1 #0097e6;
+}
+
+.far
+{
+    font-size: 17px;
+    padding-top: 3px;
+    margin-left: 10px;
+   color: #1ca7ec;
+ 
+  float: left;
+}
+
+.header-bio1 h3{
+    width: 44px;
+   color:#4ee44e;
+    float: left;
+}
+
+.main h3{
+    text-align: center;
+    color: #E67E22;
+}
+
+.app-picture img{
+    margin-left: 185px;
+    margin-top: 10px;
+}
+
+.div6{float: left; margin-right: 5px; margin-top: 5px; margin-left: 5px;
+overflow: auto;  border: 5px solid #c7ecee;
+background-clip: content-box;
+   cursor: pointer;
+   font-weight: 300;
+   font-size: 10px;
+   line-height: 1.3em;
+    text-align: justify;
+    width: 180px; 
+    height: 100px; 
+    background-color:#e7e7f0 ;
+}
+
+.div6 h2{
+    height: 18px;
+    background: linear-gradient(#3498DB,#95A5A6 );
+    color: #bab9f9;
+    margin-top: 2px;
+}
+
+ .div6 img{
+    width: 120px;
+    height: auto;
+ margin-top: 3px;
+} 
